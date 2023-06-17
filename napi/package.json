@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "napi",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,19 +9,18 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.5.2",
-    "@strapi/plugin-users-permissions": "4.5.2",
-    "@strapi/strapi": "4.5.2",
-    "mysql": "2.18.1",
-    "stripe": "^11.1.0"
+    "@strapi/plugin-i18n": "4.11.1",
+    "@strapi/plugin-users-permissions": "4.11.1",
+    "@strapi/provider-upload-cloudinary": "^4.11.1",
+    "@strapi/strapi": "4.11.1",
+    "pg": "8.8.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "fd0d2991-7c43-4fcf-a4d9-563763394c3e"
+    "uuid": "e735d972-68f5-4976-bc36-360abfdf41a9"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",

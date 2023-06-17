@@ -1,3 +1,8 @@
 /admin/node_modules
 /api/node_modules
 /client/node_modules
+/_api
+/api
+api
+_api
+/napi/.env
